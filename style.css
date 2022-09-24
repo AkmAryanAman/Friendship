@@ -1,0 +1,146 @@
+.container{
+    background-color: #FAFAFA;
+    height: auto;
+    margin: 50px;
+    margin-top: 30px;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+}
+
+.active{
+    background-color: #FAFAFA;
+}
+
+.row{
+    height: auto;
+    margin-top: 10px;
+    background-color: #FAFAFA;
+}
+
+#nav{
+    background-color: #F4D03F;
+    margin: 20px;
+    margin-top: 20px;
+    
+}
+
+#nav > ul > li{
+    display: inline-block;
+    padding: 10px;
+    font-size: 17px;
+}
+
+@media only screen and (max-width:761px){
+    #nav > ul > li{
+         display: inline-block;
+         padding: 20px;
+         font-size: 35px;
+    }
+}
+
+#nav > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav > ul :hover{
+    background-color: #FAFAFA;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.row > .image{
+    margin: 20px;
+    width: 900px;
+}
+
+@media only screen and (max-width:1024px){
+    .row > .image{
+         margin: 20px;
+         width: 820px;
+    }
+}
+
+@media only screen and (max-width:761px){
+    .containt{
+         font-size: 40px;
+         margin: 50px; 
+         width: 80%;
+    }
+}
+
+
+.containt{
+    margin: 50px; 
+    width: 70%;
+}
+
+
+
+.input-form{
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 40px;
+}
+.input{
+    margin: 5px;
+    padding: 8px;
+    font-size: 16px;
+    box-shadow: 5px black;
+    width: 300px;
+    background-color: #D4D4D3;
+    border: none;
+}
+
+.img-group{
+    width: 750px;
+    margin: 0px auto;    
+}
+
+.image{
+   margin-left: 10px; 	
+}
+
+
+@media only screen and (max-width:761px){
+    .footer-box{
+         margin-top: 10px;
+         margin-left: 10px;
+         margin-bottom: 20px;
+         width: 275px;
+         padding: 0px;
+     }
+}
+
+
+@media only screen and (max-width:1024px){
+    .footer-box{
+         margin-top: 0px;
+         margin-left: 5px;
+         margin-bottom: 20px;
+         display: inline-block;
+         width: 275px;
+         padding: 0px;
+     }
+}
+
+.footer-box{
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 275px;
+    padding: 5px;
+}
+
+
+.follow{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: #A4B9FF;
+}
